@@ -10,4 +10,8 @@
     <Compile Include="C:\Users\tarde.cetafest\Documents\GITHUBK\almoxarifadosan2\FrontSRC\src\CategoriaController.cs" Link="CategoriaController.cs" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Include="C:\Users\tarde.cetafest\Documents\GITHUBK\almoxarifadosan2\FrontSRC\Index.cshtml" Link="Index.cshtml" />
+  </ItemGroup>
+
 </Project>

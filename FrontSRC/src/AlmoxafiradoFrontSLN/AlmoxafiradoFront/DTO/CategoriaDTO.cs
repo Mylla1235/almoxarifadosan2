@@ -1,7 +1,7 @@
 ﻿
 namespace AlmoxarifadoBackAPI.DTO
 {
-    public class ProdutoDTO
+    public class CategoriaDTO
     {
         public int Codigo { get; set; }
     }

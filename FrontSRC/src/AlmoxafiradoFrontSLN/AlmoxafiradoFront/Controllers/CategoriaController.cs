@@ -1,4 +1,4 @@
-﻿using AlmoxafiradoFront.DTO;
+﻿using AlmoxafiradoFront;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Text.Json;
@@ -17,8 +17,9 @@ namespace AlmoxafiradoFront.Controllers
                 HttpResponseMessage response =  client.GetAsync(url).Result ;
                 response.EnsureSuccessStatusCode();
                 string json =  response.Content.ReadAsStringAsync().Result;
-                 categorias = JsonSerializer.Deserialize<List<CategoriaDTO>>(json); 
-                 ViewBag.Categorias = categorias;
+                List<CategoriaDTO>? categoriasDTO = JsonSerializer.Deserialize<List<CategoriaDTO>>(json);
+                categorias = categoriasDTO;
+                ViewBag.Categorias = categorias;
 
 
             }

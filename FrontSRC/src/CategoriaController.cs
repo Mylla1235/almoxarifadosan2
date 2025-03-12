@@ -1,12 +1,11 @@
 ﻿using AlmoxafiradoFront;
-using AlmoxafiradoFront.DTO;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Text.Json;
 
 namespace AlmoxafiradoFront.Controllers
 {
-    public class CategoriaController : Controller
+    public class CategoriaControlle : Controller
     {
         public IActionResult Index()
         {

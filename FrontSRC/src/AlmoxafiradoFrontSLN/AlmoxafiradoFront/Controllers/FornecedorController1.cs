@@ -1,4 +1,4 @@
-﻿using AlmoxafiradoFront.DTO;
+﻿using AlmoxafiradoFront;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Text.Json;
