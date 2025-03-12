@@ -1,9 +1,8 @@
-﻿namespace AlmoxafiradoFront.DTO
+﻿
+namespace AlmoxarifadoBackAPI.DTO
 {
-    public class CategoriaDTO
+    public class ProdutoDTO
     {
-        public int codigo { get; set; }
-
-        public string descricao { get; set; }
+        public int Codigo { get; set; }
     }
 }

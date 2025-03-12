@@ -6,4 +6,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Include="C:\Users\tarde.cetafest\Documents\GITHUBK\almoxarifadosan2\FrontSRC\src\CategoriaController.cs" Link="CategoriaController.cs" />
+  </ItemGroup>
+
 </Project>

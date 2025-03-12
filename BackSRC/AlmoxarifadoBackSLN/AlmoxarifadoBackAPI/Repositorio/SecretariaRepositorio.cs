@@ -6,20 +6,20 @@ namespace AlmoxarifadoBackAPI.Repositorio
     {
         private readonly Context _db;
 
-        public SecretariaRepositorio(Context db)
+        public CategoriaRepositorio(Context db)
         {
             _db = db;
         }
 
-        public void Add(Secretaria Secretaria)
+        public void Add(Categoria categoria)
         {
             
-            _db.Secretaria.Add(Secretaria);
+            _db.Categoria.Add(categoria);
             _db.SaveChanges();
         }
 
-        public List<Secretaria> GetAll() { 
-          return _db.Secretaria.ToList();
+        public List<Categoria> GetAll() { 
+          return _db.Categoria.ToList();
         }
 
     }
