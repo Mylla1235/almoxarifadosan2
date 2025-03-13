@@ -14,4 +14,11 @@
     <Content Include="C:\Users\tarde.cetafest\Documents\GITHUBK\almoxarifadosan2\FrontSRC\Index.cshtml" Link="Index.cshtml" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Update="Views\Secretaria\Index.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>

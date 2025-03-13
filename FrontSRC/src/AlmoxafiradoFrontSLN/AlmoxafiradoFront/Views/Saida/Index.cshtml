@@ -1,14 +1,14 @@
-﻿<div id="container" class="containerCategoria">
-    <div class="container1Categoria">
+﻿<div id="container" class="containerSaida">
+    <div class="container1Saida">
         <div>
-            <button class="btnCategoria">
+            <button class="btnSaida">
                 Novo
             </button>
         </div>
     </div>
-    <div class="container2Categoria">
-        <table class="TableContainerCategoria">
-            <thead class="theadCategoria">
+    <div class="container2Saida">
+        <table class="TableContainerSaida">
+            <thead class="theadSaidaa">
             <tha>
                 Código
             </tha>
@@ -21,15 +21,15 @@
             </thead>
             <tbody>
            
-                @foreach (var item in ViewBag.Categorias)
+                @foreach (var item in ViewBag.Saidas)
                 {
                     <tr>
-                        <td class="tdCategoria">@item.codigo</td>
-                        <td class="tdCategoria">@item.descricao</td>
-                        <td class="tdCategoria">
-                            <div class="IconesContainerCategoria">
+                        <td class="tdSaida">@item.codigo</td>
+                        <td class="tdSaida">@item.descricao</td>
+                        <td class="tdSaida">
+                            <div class="IconesContainerSaida">
                                 <img class="iconelixo" src="imagens/trash-solid.svg"/>
-                                <div class="Icone2Categoria">
+                                <div class="Icone2Saida">
                                 </div>
                             </div>
                         </td>
@@ -41,9 +41,9 @@
         
         </table>
     </div>
-    <div class="container3Categoria">
+    <div class="container3Saida">
         <div>
-            <button class="btnCategoria BtnAzulColorCategoria">
+            <button class="btnSaida BtnAzulColorSaida">
                 Voltar
             </button>
         </div>

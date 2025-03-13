@@ -1,14 +1,14 @@
-﻿<div id="container" class="containerCategoria">
-    <div class="container1Categoria">
+﻿<div id="container" class="containerFornecedor">
+    <div class="container1Fornecedor">
         <div>
-            <button class="btnCategoria">
+            <button class="btnFornecedor">
                 Novo
             </button>
         </div>
     </div>
-    <div class="container2Categoria">
-        <table class="TableContainerCategoria">
-            <thead class="theadCategoria">
+    <div class="container2Fornecedor">
+        <table class="TableContainerFornecedora">
+            <thead class="theadFornecedor">
             <tha>
                 Código
             </tha>
@@ -21,15 +21,15 @@
             </thead>
             <tbody>
            
-                @foreach (var item in ViewBag.Categorias)
+                @foreach (var item in ViewBag.Fornecedors)
                 {
                     <tr>
-                        <td class="tdCategoria">@item.codigo</td>
-                        <td class="tdCategoria">@item.descricao</td>
-                        <td class="tdCategoria">
-                            <div class="IconesContainerCategoria">
+                        <td class="tdFornecedor">@item.codigo</td>
+                        <td class="tdFornecedor">@item.descricao</td>
+                        <td class="tdFornecedor">
+                            <div class="IconesContainerFornecedor">
                                 <img class="iconelixo" src="imagens/trash-solid.svg"/>
-                                <div class="Icone2Categoria">
+                                <div class="Icone2Fornecedor">
                                 </div>
                             </div>
                         </td>
@@ -41,9 +41,9 @@
         
         </table>
     </div>
-    <div class="container3Categoria">
+    <div class="container3Fornecedor">
         <div>
-            <button class="btnCategoria BtnAzulColorCategoria">
+            <button class="btnCategoria BtnAzulColorFornecedor">
                 Voltar
             </button>
         </div>

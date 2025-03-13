@@ -1,4 +1,4 @@
-﻿.containerProduto {
+﻿.containerSaida {
     width: 60%;
     height: 60%;
     background-color: white;
@@ -8,7 +8,7 @@
     flex-direction: column;
 }
 
-.container1Produto {
+.container1Saida {
     width: 100%;
     height: 15%;
     /* background-color: black; */
@@ -16,13 +16,13 @@
     align-items: center;
 }
 
-.container2Produto {
+.container2Saida {
     width: 100%;
     height: 70%;
     /* background-color: green; */
 }
 
-.container3Produto {
+.container3Saida {
     width: 100%;
     height: 15%;
     /* background-color: yellow; */
@@ -31,7 +31,7 @@
     align-items: center;
 }
 
-.btnProduto {
+.btnSaida {
     padding: 0.3rem;
     width: 100px;
     background-color: aquamarine;
@@ -41,45 +41,45 @@
     font-weight: bolder;
 }
 
-.BtnAzulColorProduto {
+.BtnAzulColorSaida {
     background-color: cyan !important;
 }
 
-.theadProduto {
+.theadSaida {
     background-color: gray;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
 }
 
-.TableContainerProduto {
+.TableContainerSaida {
     width: 100%;
     font-size: 15pt !important;
 }
 
-.TableContainerProduto td, th {
+.TableContainerSaida td, th {
     border: 1px solid black;
 }
 
-.tdProduto {
+.tdSaida {
     background-color: white;
     color: black;
 }
 
-.Icone1Produto {
+.Icone1Saida {
     background-color: red;
     width: 50px;
     height: 50px;
     border-radius: 50%;
 }
 
-.Icone2Produto {
+.Icone2Saida {
     background-color: yellow;
     width: 50px;
     height: 50px;
     border-radius: 50%;
 }
 
-.IconesContainerProduto {
+.IconesContainerSaida {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,7 +89,7 @@
 }
 
 @media (max-width: 768px) {
-    .containerProduto {
+    .containerSaida {
         width: 82%;
     }
 }
